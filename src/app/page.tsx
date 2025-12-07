@@ -2,10 +2,9 @@ import { Navigation } from "@/components/navigation";
 
 export default function Page() {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-start gap-8 md:gap-10 md:px-8">
+    <div className="w-full h-screen flex flex-col items-center justify-start gap-8 md:gap-10 md:px-8">
       <Navigation />
 
-      {/* Hero Section */}
       <div className="max-w-5xl w-full px-4 sm:px-6">
         <h1 className="text-3xl sm:text-4xl md:text-4xl font-black leading-tight">
           NIKITA SIMANKOV

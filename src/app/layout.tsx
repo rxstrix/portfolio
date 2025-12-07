@@ -3,6 +3,7 @@ import React from "react";
 
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { JetBrains_Mono } from "next/font/google";
+import { Navigation } from "@/components/navigation";
 
 interface Props {
   children: React.ReactNode;
